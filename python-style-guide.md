@@ -22,7 +22,7 @@ Based on [PEP 8](https://www.python.org/dev/peps/pep-0008/) and [this blog post]
 - Surround operators with whitespace on either side
 	- Good: `(x + 2) == func(y % 3)`
 	- Exception: default parameters
-		- `def func(param=3,param_2="e"):`
+		- `def func(param=3, param_2="e"):`
 - Move function arguments to match the function header if they don't fit
 ```py
 def function_name_extended_for_clarity(param_1, param_2, 
