@@ -160,8 +160,8 @@ import acceleration
 - Separate module unit tests from overall unit tests
 	- Take advantage of the `if __name__ == "__main__":` clause for unit testing modules
 	- Create separate `unit_test.py` for project overall testing
+		- use Python's [`unittest`](https://docs.python.org/3/library/unittest.html) module in separate unit testing scripts
 - Keep in mind a failed `assert` results in `AssertionError`
-- use Python's [`unittest`](https://docs.python.org/3/library/unittest.html) module for more comprehensive unit testing
 ```py
 def unit_test_func_a():
 	result = func_a()
