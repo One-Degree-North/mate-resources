@@ -64,6 +64,9 @@ something.set_value(val.lower()
 ```py
 # variables
 useful_name = "snake_case"
+CONSTANT_VALUE = "UPPER_SNAKE_CASE"
+__private_var = "__snake_case"
+_protected_var = "_snaked_case"
 
 # functions/methods
 def snake_case_generator(snake_case_param):
@@ -194,6 +197,7 @@ It's all `snake_case`!
 - Do unit testing. Please do.
 - Use `typing` and standard typing practices
 - Make your python code [Cython](https://cython.org/)-able
+- Use constants to replace "magic numbers"
 
 ### Bad Practices
 - using the `global` keyword
