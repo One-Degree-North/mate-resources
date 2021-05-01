@@ -23,6 +23,9 @@ Based on [PEP 8](https://www.python.org/dev/peps/pep-0008/) and [this blog post]
 	- Good: `(x + 2) == func(y % 3)`
 	- Exception: default parameters
 		- `def func(param=3, param_2="e"):`
+	- Exception: +1 and -1 in algorithms ("next", "prev")
+		- `arr[x+1]` `arr[x-1]`
+		- if you have any more complex array index calls please keep the whitespace
 - Move function arguments to match the function header if they don't fit
 ```py
 def function_name_extended_for_clarity(param_1, param_2, 
