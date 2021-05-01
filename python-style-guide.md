@@ -14,6 +14,7 @@ Based on [PEP 8](https://www.python.org/dev/peps/pep-0008/) and [this blog post]
 	- Most editors will automatically do this
 - Maximum line length: 119 characters (PEP 8 Revised). 
 - 2 blank lines between `import`s, `class`es, and `def`s
+- 1 blank line between `def`s within `class`es
 - 1 blank line between different sub-algorithms (a comment too)
 - No blank line between a `def` line and function contents
 - No whitespace surrounding all types of brackets
@@ -65,13 +66,17 @@ useful_name = "snake_case"
 def snake_case_generator(snake_case_param):
 	# do something
 
+
 # classes
 class UpperCamelCaseClass(ExtendedClass):
+
 	def __init__(self):
 		self.i = 2
+		
 	def snake_case_method():
 		self.i += 1
 		return self.i
+		
 	def __del__(self):
 		del self.i
 ```
