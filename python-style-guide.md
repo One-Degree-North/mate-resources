@@ -75,11 +75,11 @@ def snake_case_generator(snake_case_param):
 
 # classes
 class UpperCamelCaseClass(ExtendedClass):
-
+	"""docstring"""
 	def __init__(self):
 		self.i = 2
 		
-	def snake_case_method():
+	def snake_case_method(self):
 		self.i += 1
 		return self.i
 		
@@ -157,7 +157,11 @@ import acceleration
 
 ### Unit Testing
 - Please actually do unit tests.
-- Take advantage of the `if __name__ == "__main__":` clause
+- Separate module unit tests from overall unit tests
+	- Take advantage of the `if __name__ == "__main__":` clause for unit testing modules
+	- Create separate `unit_test.py` for project overall testing
+- Keep in mind a failed `assert` results in `AssertionError`
+- use Python's [`unittest`](https://docs.python.org/3/library/unittest.html) module for more comprehensive unit testing
 ```py
 def unit_test_func_a():
 	result = func_a()
@@ -179,7 +183,7 @@ project_name/
 	__init__.py
 	main.py
 	database.py
-	unit_test.py (?)
+	unit_test.py
 	language_parsers/
 		__init__.py
 		english_parser.py
