@@ -3,6 +3,9 @@
 
 For Python 3.7, 3.8, 3.9, 3.10
 
+**Disclaimer**:
+Please, don't bother with this until you actually know how to program in Python. The style guide is for production code mostly by the R&D Team. Here's some resources to learn: [W3Schools](https://www.w3schools.com/python/), [learnpython](https://www.learnpython.org/), [Python Language Reference](https://docs.python.org/3/reference/index.html)
+
 Based on [PEP 8](https://www.python.org/dev/peps/pep-0008/) and [this blog post](https://luminousmen.com/post/the-ultimate-python-style-guidelines)
 
 ### Code Layout
@@ -191,3 +194,4 @@ It's all `snake_case`!
 - lambdas unless really needed
 - nested maps/lambdas
 - overly nested functions (more than say 3-4 layers w/o recursion)
+- dynamically opening/closing threads unless really required
