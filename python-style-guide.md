@@ -1,5 +1,5 @@
 # ODN MATE Python Style Guide
-(Last updated May 1, 2021 by Jefferson Zhang)
+(Current Version: May 2021)
 
 For Python 3.7, 3.8, 3.9, 3.10
 
